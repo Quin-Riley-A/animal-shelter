@@ -35,15 +35,15 @@ img{
 
 .green{
   border: dashed green;
-  background-color: rgb(90, 234, 90);
+  background-color: rgba(90, 234, 90, 0.75);
 }
 
 .teal{
   border: dashed teal;
-  background-color: rgb(68, 227, 227);
+  background-color: rgba(68, 227, 227, 0.75);
 }
 
 .beige{
-  border: dashed rgb(177, 177, 88);
-  background-color: beige;
+  border: dashed rgb(177, 177, 88,);
+  background-color: rgba(245, 245, 220, 0.75);
 }
