@@ -1,0 +1,21 @@
+body{
+  font-family: Helvetica;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.column{
+  float:left;
+  width: 33.33%;
+  border: 2px dashed green;
+  padding: 10px;
+  background-color: rgb(90, 234, 90);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
