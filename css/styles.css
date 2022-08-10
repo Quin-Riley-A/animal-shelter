@@ -1,5 +1,6 @@
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 h5{
@@ -9,33 +10,36 @@ h5{
 img{
   width: 100%;
   height: auto;
+  max-height: 200px;
   overflow: hidden;
 }
 
 .column{
   float:left;
   width: 30%;
-  height: 1000px;
-  border: 2px dashed green;
+  height: auto;
+  border: 2px;
   padding: 10px;
-  background-color: rgb(90, 234, 90);
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
   box-sizing: border-box;
-  text-align: center;
   overflow: hidden;
 }
 
 .green{
-
+  border: dashed green;
+  background-color: rgb(90, 234, 90);
 }
 
 .teal{
-
+  border: dashed teal;
+  background-color: rgb(68, 227, 227);
 }
 
 .beige{
-  
+  border: dashed rgb(177, 177, 88);
+  background-color: beige;
+
 }
