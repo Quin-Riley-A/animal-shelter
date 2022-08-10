@@ -1,21 +1,41 @@
 body{
-  font-family: Helvetica;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5{
+  font-style: italic;
 }
 
 img{
-  max-width: 100%;
+  width: 100%;
   height: auto;
   overflow: hidden;
 }
 
 .column{
   float:left;
-  width: 33.33%;
+  width: 30%;
+  height: 1000px;
   border: 2px dashed green;
   padding: 10px;
   background-color: rgb(90, 234, 90);
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   box-sizing: border-box;
   text-align: center;
+  overflow: hidden;
+}
+
+.green{
+
+}
+
+.teal{
+
+}
+
+.beige{
+  
 }
